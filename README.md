@@ -2,6 +2,8 @@
 
 Welcome to the Neodyme plugin ecosystem! Plugins allow you to extend your server's functionality without modifying the core codebase.
 
+## [Neodyme Backend](https://github.com/Aorux01/Neodyme)
+
 ---
 
 ## Available Plugins
