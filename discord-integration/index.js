@@ -25,11 +25,9 @@ class DiscordIntegration {
             this.pluginManager = pluginManager;
             this.startTime = new Date();
 
-            // Load services
             this.LoggerService = require('../../src/service/logger/logger-service');
             this.DatabaseManager = require('../../src/manager/database-manager');
 
-            // Load config
             this.loadConfig();
 
             if (!this.config.enabled) {
@@ -37,17 +35,14 @@ class DiscordIntegration {
                 return true;
             }
 
-            // Initialize webhooks
             if (this.config.webhooks.serverStatus.enabled && this.config.webhooks.serverStatus.url) {
                 await this.sendServerStartWebhook();
             }
 
-            // Initialize bot if enabled
             if (this.config.bot.enabled && this.config.bot.token) {
                 await this.initializeBot();
             }
 
-            // Hook into shop rotation
             this.hookShopRotation();
 
             this.LoggerService.log('success', '[Discord] Plugin initialized successfully');
@@ -113,11 +108,7 @@ class DiscordIntegration {
         this.config = defaultConfig;
         fs.writeFileSync(this.configPath, JSON.stringify(defaultConfig, null, 4), 'utf8');
     }
-
-    // ========================================
-    // WEBHOOK METHODS
-    // ========================================
-
+    
     async sendWebhook(webhookUrl, payload) {
         return new Promise((resolve, reject) => {
             try {
@@ -284,7 +275,6 @@ class DiscordIntegration {
     }
 
     hookShopRotation() {
-        // Try to hook into ShopService if available
         try {
             this.ShopService = require('../../src/service/shop/shop-service');
             const originalRotate = this.ShopService.rotateShop;
@@ -310,13 +300,8 @@ class DiscordIntegration {
         }
     }
 
-    // ========================================
-    // BOT METHODS
-    // ========================================
-
     async initializeBot() {
         try {
-            // Check if discord.js is installed
             let Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder;
             try {
                 const discordjs = require('discord.js');
@@ -340,13 +325,10 @@ class DiscordIntegration {
                 ]
             });
 
-            // Register commands
             await this.registerCommands(REST, Routes, SlashCommandBuilder);
 
-            // Setup event handlers
             this.setupBotEvents();
 
-            // Login
             await this.client.login(this.config.bot.token);
             this.LoggerService.log('success', '[Discord] Bot logged in successfully');
         } catch (error) {
@@ -428,7 +410,6 @@ class DiscordIntegration {
         const cmdConfig = this.config.bot.commands[commandName];
         if (!cmdConfig || !cmdConfig.enabled) return false;
 
-        // Empty allowedRoles means everyone can use
         if (!cmdConfig.allowedRoles || cmdConfig.allowedRoles.length === 0) return true;
 
         const roleConfig = this.config.bot.roles;
@@ -445,7 +426,6 @@ class DiscordIntegration {
     async handleCommand(interaction) {
         const commandName = interaction.commandName.replace(/-/g, '');
 
-        // Permission check
         if (!this.hasPermission(interaction.member, commandName === 'createaccount' ? 'createAccount' :
             commandName === 'viewaccount' ? 'viewAccount' :
             commandName === 'banuser' ? 'banUser' :
@@ -816,10 +796,6 @@ class DiscordIntegration {
             });
         }
     }
-
-    // ========================================
-    // SHUTDOWN
-    // ========================================
 
     async shutdown() {
         try {
