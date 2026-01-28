@@ -76,7 +76,7 @@ Full Discord integration with:
 
 ## Community Plugins
 
-Want to share your plugin? Create a pull request to add it to this list!
+Want to share your plugin? Create a pull request to add it to this list! Or contact me on Discord: @aorux01
 
 ---
 
