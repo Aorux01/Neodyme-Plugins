@@ -1,0 +1,80 @@
+{
+    "enabled": true,
+
+    "webhooks": {
+        "serverStatus": {
+            "enabled": true,
+            "url": "",
+            "username": "Neodyme Server",
+            "avatarUrl": ""
+        },
+        "shopRotation": {
+            "enabled": true,
+            "url": "",
+            "username": "Neodyme Shop",
+            "avatarUrl": ""
+        }
+    },
+
+    "bot": {
+        "enabled": false,
+        "token": "",
+        "clientId": "",
+        "guildId": "",
+        "prefix": "!",
+
+        "roles": {
+            "admin": [],
+            "moderator": [],
+            "support": []
+        },
+
+        "commands": {
+            "createAccount": {
+                "enabled": true,
+                "allowedRoles": ["admin", "moderator"]
+            },
+            "viewAccount": {
+                "enabled": true,
+                "allowedRoles": ["admin", "moderator", "support"]
+            },
+            "banUser": {
+                "enabled": true,
+                "allowedRoles": ["admin", "moderator"]
+            },
+            "unbanUser": {
+                "enabled": true,
+                "allowedRoles": ["admin", "moderator"]
+            },
+            "giveVbucks": {
+                "enabled": true,
+                "allowedRoles": ["admin"]
+            },
+            "serverStatus": {
+                "enabled": true,
+                "allowedRoles": []
+            },
+            "playerCount": {
+                "enabled": true,
+                "allowedRoles": []
+            }
+        }
+    },
+
+    "embeds": {
+        "colors": {
+            "success": "#00ff00",
+            "error": "#ff0000",
+            "info": "#0099ff",
+            "warning": "#ffcc00",
+            "serverOnline": "#00ff00",
+            "serverOffline": "#ff0000",
+            "shopRotation": "#9b59b6"
+        },
+        "footer": {
+            "text": "Neodyme Server",
+            "iconUrl": ""
+        },
+        "showTimestamp": true
+    }
+}
