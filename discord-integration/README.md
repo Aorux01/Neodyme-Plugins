@@ -235,4 +235,4 @@ Restart Neodyme to load the plugin with the bot.
 
 ## Support
 
-For issues or feature requests, please open an issue on the Neodyme GitHub repository.
+For issues or feature requests, please open an issue in this repository.
