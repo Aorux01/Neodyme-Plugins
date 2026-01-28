@@ -169,7 +169,7 @@ Restart Neodyme to load the plugin with the bot.
 
 | Command | Description | Default Roles |
 |---------|-------------|---------------|
-| `/createaccount` | Create a new player account | Admin, Moderator |
+| `/createaccount` | Create a new player account | Everyone |
 | `/viewaccount` | View account information | Admin, Moderator, Support |
 | `/banuser` | Ban a player | Admin, Moderator |
 | `/unbanuser` | Unban a player | Admin, Moderator |
