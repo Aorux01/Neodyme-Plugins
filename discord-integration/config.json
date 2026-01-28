@@ -32,7 +32,7 @@
         "commands": {
             "createAccount": {
                 "enabled": true,
-                "allowedRoles": ["admin", "moderator"]
+                "allowedRoles": []
             },
             "viewAccount": {
                 "enabled": true,
