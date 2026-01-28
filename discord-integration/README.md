@@ -1,6 +1,8 @@
 # Discord Integration Plugin
 
 A comprehensive Discord integration plugin for Neodyme that provides webhook notifications and a Discord bot for server management.
+**MADE BY**: [Aorux01](https://github.com/Aorux01)
+**OFFICIAL PLUGIN**
 
 ## Features
 
