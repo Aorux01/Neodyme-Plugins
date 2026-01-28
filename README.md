@@ -92,6 +92,6 @@ When creating plugins:
 
 ## Support
 
-- Documentation: [Wiki](../wiki/)
-- Issues: [GitHub Issues](https://github.com/Jeotique/Neodyme/issues)
+- Documentation: [Wiki](https://github.com/Aorux01/Neodyme/wiki/plugin.md)
+- Issues: [GitHub Issues](https://github.com/Aorux01/Neodyme/issues)
 - Discord: @aorux01
