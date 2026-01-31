@@ -16,7 +16,7 @@ class DiscordIntegration {
         this.pluginManager = null;
         this.LoggerService = null;
         this.DatabaseManager = null;
-        this.ShopService = null;
+        this.ShopManager = null;
         this.startTime = null;
     }
 
@@ -108,7 +108,7 @@ class DiscordIntegration {
         this.config = defaultConfig;
         fs.writeFileSync(this.configPath, JSON.stringify(defaultConfig, null, 4), 'utf8');
     }
-    
+
     async sendWebhook(webhookUrl, payload) {
         return new Promise((resolve, reject) => {
             try {
@@ -235,6 +235,37 @@ class DiscordIntegration {
         }
     }
 
+    formatShopData(shopData) {
+        const featured = [];
+        const daily = [];
+
+        for (const [key, value] of Object.entries(shopData)) {
+            if (key === '//') continue;
+
+            if (key.startsWith('featured') && value.meta) {
+                featured.push({
+                    name: value.meta.name || 'Unknown',
+                    devName: key,
+                    price: value.price || 0,
+                    rarity: value.meta.rarity || 'Unknown',
+                    type: value.meta.type || 'Unknown',
+                    image: value.meta.image || null
+                });
+            } else if (key.startsWith('daily') && value.meta) {
+                daily.push({
+                    name: value.meta.name || 'Unknown',
+                    devName: key,
+                    price: value.price || 0,
+                    rarity: value.meta.rarity || 'Unknown',
+                    type: value.meta.type || 'Unknown',
+                    image: value.meta.image || null
+                });
+            }
+        }
+
+        return { featured, daily };
+    }
+
     async sendShopRotationWebhook(shopData) {
         const webhook = this.config.webhooks.shopRotation;
         if (!webhook.url || !webhook.enabled) return;
@@ -276,27 +307,26 @@ class DiscordIntegration {
 
     hookShopRotation() {
         try {
-            this.ShopService = require('../../src/service/shop/shop-service');
-            const originalRotate = this.ShopService.rotateShop;
+            this.ShopManager = require('../../src/manager/shop-manager');
+            const originalRotate = this.ShopManager.rotateShop.bind(this.ShopManager);
             const self = this;
 
-            if (originalRotate && typeof originalRotate === 'function') {
-                this.ShopService.rotateShop = async function(...args) {
-                    const result = await originalRotate.apply(this, args);
-                    try {
-                        const shopData = await self.ShopService.getShop();
-                        if (shopData) {
-                            await self.sendShopRotationWebhook(shopData);
-                        }
-                    } catch (e) {
-                        self.LoggerService.log('error', `[Discord] Shop hook error: ${e.message}`);
+            this.ShopManager.rotateShop = async function(...args) {
+                const result = await originalRotate(...args);
+                try {
+                    const shopData = await self.ShopManager.getShopData();
+                    if (shopData) {
+                        const formatted = self.formatShopData(shopData);
+                        await self.sendShopRotationWebhook(formatted);
                     }
-                    return result;
-                };
-                this.LoggerService.log('info', '[Discord] Shop rotation hook installed');
-            }
+                } catch (e) {
+                    self.LoggerService.log('error', `[Discord] Shop hook error: ${e.message}`);
+                }
+                return result;
+            };
+            this.LoggerService.log('info', '[Discord] Shop rotation hook installed');
         } catch (error) {
-            this.LoggerService.log('warn', '[Discord] Could not hook shop rotation');
+            this.LoggerService.log('warn', `[Discord] Could not hook shop rotation: ${error.message}`);
         }
     }
 
@@ -393,7 +423,7 @@ class DiscordIntegration {
     setupBotEvents() {
         this.client.on('ready', () => {
             this.LoggerService.log('info', `[Discord] Bot ready as ${this.client.user.tag}`);
-            this.client.user.setActivity('Neodyme Server', { type: 3 }); // Watching
+            this.client.user.setActivity('Neodyme Server', { type: 3 });
         });
 
         this.client.on('interactionCreate', async interaction => {
@@ -799,12 +829,10 @@ class DiscordIntegration {
 
     async shutdown() {
         try {
-            // Send shutdown webhook
             if (this.config?.webhooks?.serverStatus?.enabled && this.config?.webhooks?.serverStatus?.url) {
                 await this.sendServerStopWebhook();
             }
 
-            // Disconnect bot
             if (this.client) {
                 this.client.destroy();
                 this.LoggerService.log('info', '[Discord] Bot disconnected');
