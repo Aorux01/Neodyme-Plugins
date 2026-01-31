@@ -7,7 +7,7 @@ class DiscordIntegration {
     name = "DiscordIntegration";
     version = "1.0.0";
     description = "Discord bot and webhook integration for Neodyme server";
-    author = "Aorux - Neodyme Team";
+    author = "Aorux - Neodmye Team";
     minBackendVersion = "1.2.0";
     dependencies = [];
 
@@ -423,7 +423,7 @@ class DiscordIntegration {
     }
 
     setupBotEvents() {
-        this.client.on('ready', () => {
+        this.client.once('ready', () => {
             this.LoggerService.log('info', `[Discord] Bot ready as ${this.client.user.tag}`);
             this.client.user.setActivity('Neodyme Server', { type: 3 });
         });
@@ -846,4 +846,5 @@ class DiscordIntegration {
 }
 
 module.exports = DiscordIntegration;
+
 
