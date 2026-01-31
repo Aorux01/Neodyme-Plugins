@@ -522,7 +522,7 @@ class DiscordIntegration {
         const password = interaction.options.getString('password');
 
         try {
-            const result = await this.DatabaseManager.createAccount(email, username, password);
+            const result = await this.DatabaseManager.createAccount(email, password, username);
 
             if (result.success || result.accountId) {
                 await interaction.editReply({
@@ -562,7 +562,7 @@ class DiscordIntegration {
         const username = interaction.options.getString('username');
 
         try {
-            const clients = await this.DatabaseManager.getClients();
+            const clients = await this.DatabaseManager.getAllAccounts();
             const account = clients.find(c =>
                 c.displayName && c.displayName.toLowerCase() === username.toLowerCase()
             );
@@ -577,13 +577,16 @@ class DiscordIntegration {
                 });
             }
 
+            const isBanned = await this.DatabaseManager.AccountIsBanned(account.accountId);
+            const roleName = this.DatabaseManager.getRoleName(account.clientType || 0);
+
             const fields = [
                 { name: 'Account ID', value: account.accountId || 'N/A', inline: false },
                 { name: 'Display Name', value: account.displayName || 'N/A', inline: true },
                 { name: 'Email', value: account.email || 'N/A', inline: true },
-                { name: 'Role', value: account.role || 'player', inline: true },
+                { name: 'Role', value: roleName, inline: true },
                 { name: 'Created', value: account.createdAt ? `<t:${Math.floor(new Date(account.createdAt).getTime() / 1000)}:R>` : 'N/A', inline: true },
-                { name: 'Banned', value: account.ban?.banned ? 'Yes' : 'No', inline: true }
+                { name: 'Banned', value: isBanned ? 'Yes' : 'No', inline: true }
             ];
 
             await interaction.editReply({
@@ -612,7 +615,7 @@ class DiscordIntegration {
         const duration = interaction.options.getString('duration') || 'permanent';
 
         try {
-            const clients = await this.DatabaseManager.getClients();
+            const clients = await this.DatabaseManager.getAllAccounts();
             const account = clients.find(c =>
                 c.displayName && c.displayName.toLowerCase() === username.toLowerCase()
             );
@@ -640,15 +643,8 @@ class DiscordIntegration {
                 }
             }
 
-            account.ban = {
-                banned: true,
-                reason,
-                bannedAt: new Date().toISOString(),
-                bannedBy: interaction.user.tag,
-                banExpires
-            };
-
-            await this.DatabaseManager.saveClients(clients);
+            const banReason = `${reason} (banned by ${interaction.user.tag})`;
+            await this.DatabaseManager.banAccount(account.accountId, [banReason], banExpires);
 
             await interaction.editReply({
                 embeds: [this.createEmbed({
@@ -679,7 +675,7 @@ class DiscordIntegration {
         const username = interaction.options.getString('username');
 
         try {
-            const clients = await this.DatabaseManager.getClients();
+            const clients = await this.DatabaseManager.getAllAccounts();
             const account = clients.find(c =>
                 c.displayName && c.displayName.toLowerCase() === username.toLowerCase()
             );
@@ -694,7 +690,8 @@ class DiscordIntegration {
                 });
             }
 
-            if (!account.ban?.banned) {
+            const isBanned = await this.DatabaseManager.AccountIsBanned(account.accountId);
+            if (!isBanned) {
                 return interaction.editReply({
                     embeds: [this.createEmbed({
                         title: 'Not Banned',
@@ -704,8 +701,7 @@ class DiscordIntegration {
                 });
             }
 
-            account.ban = { banned: false };
-            await this.DatabaseManager.saveClients(clients);
+            await this.DatabaseManager.unbanAccount(account.accountId);
 
             await interaction.editReply({
                 embeds: [this.createEmbed({
@@ -732,7 +728,7 @@ class DiscordIntegration {
         const amount = interaction.options.getInteger('amount');
 
         try {
-            const clients = await this.DatabaseManager.getClients();
+            const clients = await this.DatabaseManager.getAllAccounts();
             const account = clients.find(c =>
                 c.displayName && c.displayName.toLowerCase() === username.toLowerCase()
             );
@@ -805,7 +801,7 @@ class DiscordIntegration {
 
     async cmdPlayerCount(interaction) {
         try {
-            const clients = await this.DatabaseManager.getClients();
+            const clients = await this.DatabaseManager.getAllAccounts();
             const totalAccounts = clients.length;
 
             await interaction.reply({
