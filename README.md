@@ -25,7 +25,7 @@ Welcome to the Neodyme plugin ecosystem! Plugins allow you to extend your server
 
 ## Creating Your Own Plugin
 
-See the [Plugin Documentation](https://github.com/Aorux01/Neodyme/wiki/plugin.md) for a complete guide on creating custom plugins.
+See the [Plugin Documentation](https://github.com/Aorux01/Neodyme/wiki/Plugin) for a complete guide on creating custom plugins.
 
 ### Basic Plugin Structure
 
