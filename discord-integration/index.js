@@ -7,6 +7,8 @@ class DiscordIntegration {
     name = "DiscordIntegration";
     version = "1.0.0";
     description = "Discord bot and webhook integration for Neodyme server";
+    author = "Aorux - Neodmye Team";
+    minBackendVersion = "1.2.0";
     dependencies = [];
 
     constructor() {
@@ -848,3 +850,4 @@ class DiscordIntegration {
 }
 
 module.exports = DiscordIntegration;
+
