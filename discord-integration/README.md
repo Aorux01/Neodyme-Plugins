@@ -3,6 +3,9 @@
 A comprehensive Discord integration plugin for Neodyme that provides webhook notifications and a Discord bot for server management.
 **MADE BY**: [Aorux01](https://github.com/Aorux01) **[OFFICIAL PLUGIN]**
 
+**Version**: 1.0.0
+**Minimum Backen Version**: 1.2.0
+
 ## Features
 
 - **Server Status Webhooks**: Get notified when the server starts and stops
