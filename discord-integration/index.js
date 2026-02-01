@@ -7,7 +7,7 @@ class DiscordIntegration {
     name = "DiscordIntegration";
     version = "1.0.0";
     description = "Discord bot and webhook integration for Neodyme server";
-    author = "Aorux - Neodmye Team";
+    author = "Aorux - Neodyme Team";
     minBackendVersion = "1.2.0";
     dependencies = [];
 
@@ -238,34 +238,36 @@ class DiscordIntegration {
     }
 
     formatShopData(shopData) {
-        const featured = [];
-        const daily = [];
+        const categories = {};
+
+        let shopConfig = { daily: {}, featured: {} };
+        try {
+            shopConfig = this.ShopManager.getShopConfig().shopCategories || shopConfig;
+        } catch (e) {}
+
+        for (const categoryKey of Object.keys(shopConfig)) {
+            categories[categoryKey] = [];
+        }
 
         for (const [key, value] of Object.entries(shopData)) {
-            if (key === '//') continue;
+            if (key === '//' || key.startsWith('//')) continue;
 
-            if (key.startsWith('featured') && value.meta) {
-                featured.push({
-                    name: value.meta.name || 'Unknown',
-                    devName: key,
-                    price: value.price || 0,
-                    rarity: value.meta.rarity || 'Unknown',
-                    type: value.meta.type || 'Unknown',
-                    image: value.meta.image || null
-                });
-            } else if (key.startsWith('daily') && value.meta) {
-                daily.push({
-                    name: value.meta.name || 'Unknown',
-                    devName: key,
-                    price: value.price || 0,
-                    rarity: value.meta.rarity || 'Unknown',
-                    type: value.meta.type || 'Unknown',
-                    image: value.meta.image || null
-                });
+            for (const categoryKey of Object.keys(shopConfig)) {
+                if (key.startsWith(categoryKey) && value.meta) {
+                    categories[categoryKey].push({
+                        name: value.meta.name || 'Unknown',
+                        devName: key,
+                        price: value.price || 0,
+                        rarity: value.meta.rarity || 'Unknown',
+                        type: value.meta.type || 'Unknown',
+                        image: value.meta.image || null
+                    });
+                    break;
+                }
             }
         }
 
-        return { featured, daily };
+        return { categories, shopConfig };
     }
 
     async sendShopRotationWebhook(shopData) {
@@ -273,19 +275,23 @@ class DiscordIntegration {
         if (!webhook.url || !webhook.enabled) return;
 
         const fields = [];
+        const { categories, shopConfig } = shopData;
 
-        if (shopData.featured && shopData.featured.length > 0) {
-            const featuredItems = shopData.featured.slice(0, 5).map(item =>
-                `• ${item.name || item.devName || 'Unknown'} - ${item.price || '?'} V-Bucks`
-            ).join('\n');
-            fields.push({ name: 'Featured Items', value: featuredItems || 'None', inline: false });
-        }
+        for (const [categoryKey, items] of Object.entries(categories)) {
+            if (items && items.length > 0) {
+                const categoryConfig = shopConfig[categoryKey] || {};
+                const displayName = categoryConfig.displayName || categoryKey.charAt(0).toUpperCase() + categoryKey.slice(1);
 
-        if (shopData.daily && shopData.daily.length > 0) {
-            const dailyItems = shopData.daily.slice(0, 5).map(item =>
-                `• ${item.name || item.devName || 'Unknown'} - ${item.price || '?'} V-Bucks`
-            ).join('\n');
-            fields.push({ name: 'Daily Items', value: dailyItems || 'None', inline: false });
+                const itemsList = items.slice(0, 5).map(item =>
+                    `• ${item.name || item.devName || 'Unknown'} - ${item.price || '?'} V-Bucks`
+                ).join('\n');
+
+                fields.push({
+                    name: `${displayName} Items`,
+                    value: itemsList || 'None',
+                    inline: false
+                });
+            }
         }
 
         const embed = this.createEmbed({
