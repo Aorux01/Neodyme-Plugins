@@ -7,7 +7,7 @@ class DiscordIntegration {
     name = "DiscordIntegration";
     version = "1.0.0";
     description = "Discord bot and webhook integration for Neodyme server";
-    author = "Aorux - Neodyme Team";
+    author = "Aorux - Neodmye Team";
     minBackendVersion = "1.2.0";
     dependencies = [];
 
