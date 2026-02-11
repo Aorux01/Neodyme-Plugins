@@ -4,12 +4,17 @@ const https = require('https');
 const http = require('http');
 
 class DiscordIntegration {
-    name = "DiscordIntegration";
+    name = "discord-integration";
     version = "1.0.0";
-    description = "Discord bot and webhook integration for Neodyme server";
-    author = "Aorux - Neodmye Team";
+    description = "Enhanced Discord integration features";
+    author = "Aorux - Neodyme Team";
     minBackendVersion = "1.2.0";
-    dependencies = [];
+    repository = "https://github.com/Aorux01/Neodyme-Plugins";
+    homepage = "https://github.com/Aorux01/Neodyme-Plugins/blob/main/discord-integration/README.md";
+    dependencies = {
+        npm: ["discord.js"],
+        plugins: []
+    }
 
     constructor() {
         this.config = null;
