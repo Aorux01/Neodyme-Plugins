@@ -1,1 +1,39 @@
-
+{
+  "id": "discord-integration",
+  "guid": "cb6137f08e424d3f8460e568ef8cb5ac",
+  "name": "Discord Integration",
+  "version": "1.0.0",
+  "description": "Enhanced Discord integration features",
+  "author": "Aorux [Official Plugin]",
+  "minBackendVersion": "1.2.0",
+  "repository": "https://github.com/Aorux01/Neodyme-Plugins",
+  "license": "",
+  "dependencies": {
+    "npm": ["discord.js"],
+    "plugins": []
+  },
+  "files": [
+    {
+      "path": "discord-integration/index.js",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/index.js",
+      "type": "main"
+    },
+    {
+      "path": "discord-integration/config.json",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/config.json",
+      "type": "config"
+    },
+    {
+      "path": "discord-integration/README.md",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/README.md",
+      "type": "doc"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-02-11",
+      "changes": ["Initial release"]
+    }
+  ]
+}
