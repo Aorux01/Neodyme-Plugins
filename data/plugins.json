@@ -4,6 +4,7 @@
   "plugins": [
     {
       "id": "discord-integration",
+      "guid": "cb6137f08e424d3f8460e568ef8cb5ac",
       "name": "Discord Integration",
       "description": "Enhanced Discord integration features",
       "author": "Aorux [Official Plugin]",
