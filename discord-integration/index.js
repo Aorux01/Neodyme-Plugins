@@ -14,7 +14,7 @@ class DiscordIntegration {
     dependencies = {
         npm: ["discord.js"],
         plugins: []
-    }
+    };
 
     constructor() {
         this.config = null;
