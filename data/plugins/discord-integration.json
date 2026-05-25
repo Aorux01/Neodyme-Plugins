@@ -2,38 +2,38 @@
   "id": "discord-integration",
   "guid": "cb6137f08e424d3f8460e568ef8cb5ac",
   "name": "Discord Integration",
-  "version": "1.0.0",
   "description": "Enhanced Discord integration features",
   "author": "Aorux - Neodyme Team",
-  "minBackendVersion": "1.2.0",
   "repository": "https://github.com/Aorux01/Neodyme-Plugins",
-  "license": "",
+  "license": "MIT",
   "dependencies": {
     "npm": ["discord.js"],
     "plugins": []
   },
-  "files": [
-    {
-      "path": "discord-integration/index.js",
-      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/index.js",
-      "type": "main"
+  "versions": {
+    "1.0.0": {
+      "minBackendVersion": "1.2.0",
+      "releaseDate": "2025-02-11",
+      "totalSize": 28412,
+      "files": [
+        { "path": "discord-integration/index.js",   "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/index.js",   "type": "main",   "size": 24105 },
+        { "path": "discord-integration/config.json","url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/config.json","type": "config", "size": 1487 },
+        { "path": "discord-integration/README.md",  "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/README.md",  "type": "doc",    "size": 2820 }
+      ]
     },
-    {
-      "path": "discord-integration/config.json",
-      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/config.json",
-      "type": "config"
-    },
-    {
-      "path": "discord-integration/README.md",
-      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/README.md",
-      "type": "doc"
+    "1.0.1": {
+      "minBackendVersion": "1.2.5",
+      "releaseDate": "2026-05-25",
+      "totalSize": 31200,
+      "files": [
+        { "path": "discord-integration/index.js",   "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/index.js",   "type": "main",   "size": 26800 },
+        { "path": "discord-integration/config.json","url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/config.json","type": "config", "size": 1500 },
+        { "path": "discord-integration/README.md",  "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/README.md",  "type": "doc",    "size": 2900 }
+      ]
     }
-  ],
+  },
   "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2025-02-11",
-      "changes": ["Initial release"]
-    }
+    { "version": "1.0.1", "date": "2026-05-25", "changes": ["Shop rotation now sends the rendered shop image (SVG)", "Falls back to text summary if image generator unavailable"] },
+    { "version": "1.0.0", "date": "2025-02-11", "changes": ["Initial release"] }
   ]
 }
