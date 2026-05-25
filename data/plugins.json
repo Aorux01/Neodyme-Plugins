@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-02-11T12:00:00Z",
+  "lastUpdated": "2026-05-25T12:00:00Z",
   "plugins": [
     {
       "id": "discord-integration",
@@ -8,8 +8,7 @@
       "name": "Discord Integration",
       "description": "Enhanced Discord integration features",
       "author": "Aorux - Neodyme Team",
-      "version": "1.0.0",
-      "minBackendVersion": "1.2.0",
+      "version": "1.0.1",
       "category": "integration",
       "tags": ["discord", "social"],
       "downloads": 0,
