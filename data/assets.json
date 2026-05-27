@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-27T16:30:46.917Z",
-  "totalSize": 38122169,
+  "lastUpdated": "2026-05-27T17:06:43.068Z",
+  "totalSize": 40668101,
   "assets": [
     {
       "path": "images/fortnite-public-service-prod11/28comp-fncs-communitycup-in-game-poster-front.jpg",
@@ -29,18 +29,18 @@
       "size": 334747
     },
     {
-      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_Badges.png",
-      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_Badges.png",
+      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_11/11BR_Launch_Upsell_Badges.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_11/11BR_Launch_Upsell_Badges.png",
       "size": 131068
     },
     {
-      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_HowDoesItWork.png",
-      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_HowDoesItWork.png",
+      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_11/11BR_Launch_Upsell_HowDoesItWork.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_11/11BR_Launch_Upsell_HowDoesItWork.png",
       "size": 230970
     },
     {
-      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_WhatsInside.png",
-      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_WhatsInside.png",
+      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_11/11BR_Launch_Upsell_WhatsInside.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_11/11BR_Launch_Upsell_WhatsInside.png",
       "size": 192648
     },
     {
@@ -134,6 +134,11 @@
       "size": 107603
     },
     {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_PowerUp_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_PowerUp_ModeTile.jpg",
+      "size": 129716
+    },
+    {
       "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_PurpleReign_ModeTile.jpg",
       "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_PurpleReign_ModeTile.jpg",
       "size": 72938
@@ -207,6 +212,11 @@
       "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_OneShot.jpg",
       "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_OneShot.jpg",
       "size": 429759
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Siphon.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Siphon.jpg",
+      "size": 2339610
     },
     {
       "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Slide.jpg",
@@ -482,6 +492,11 @@
       "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Squad.png",
       "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Squad.png",
       "size": 434813
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Trios.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Trios.png",
+      "size": 76606
     },
     {
       "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LTM-Tile_Playground.jpg",
