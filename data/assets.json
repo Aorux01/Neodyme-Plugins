@@ -1,0 +1,577 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-27T16:30:46.917Z",
+  "totalSize": 38122169,
+  "assets": [
+    {
+      "path": "images/fortnite-public-service-prod11/28comp-fncs-communitycup-in-game-poster-front.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/fortnite-public-service-prod11/28comp-fncs-communitycup-in-game-poster-front.jpg",
+      "size": 284910
+    },
+    {
+      "path": "images/fortnite-public-service-prod11/Fortnite_blog_announcing-2018-2019-fortnite-competitive.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/fortnite-public-service-prod11/Fortnite_blog_announcing-2018-2019-fortnite-competitive.jpg",
+      "size": 1118564
+    },
+    {
+      "path": "images/fortnite-public-service-prod11/Fortnite_blog_v10-background.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/fortnite-public-service-prod11/Fortnite_blog_v10-background.png",
+      "size": 298139
+    },
+    {
+      "path": "images/fortnite-public-service-prod11/Fortnite_Tournament_Poster_Back.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/fortnite-public-service-prod11/Fortnite_Tournament_Poster_Back.png",
+      "size": 412958
+    },
+    {
+      "path": "images/unrealengine-cdn2/duos-1920x1080-1920x1080-5a411fe07b21.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/duos-1920x1080-1920x1080-5a411fe07b21.jpg",
+      "size": 334747
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_Badges.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_Badges.png",
+      "size": 131068
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_HowDoesItWork.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_HowDoesItWork.png",
+      "size": 230970
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_WhatsInside.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_battle-pass-about/Season_8/11BR_Launch_Upsell_WhatsInside.png",
+      "size": 192648
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_AirRoyale_Mode-Tile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_AirRoyale_Mode-Tile.jpg",
+      "size": 393691
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_HighStakes_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_HighStakes_ModeTile.jpg",
+      "size": 513606
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_LTM_Endgame_InGame_Mode-Tile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_LTM_Endgame_InGame_Mode-Tile.jpg",
+      "size": 818679
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_LTM_FloorIsLava_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_LTM_FloorIsLava_ModeTile.jpg",
+      "size": 548342
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_LTM_SolidGreen_ModeTile_Squads.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/08BR_LTM_SolidGreen_ModeTile_Squads.jpg",
+      "size": 296023
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/09BR_LTM_DowntownDrop_Screenshot_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/09BR_LTM_DowntownDrop_Screenshot_ModeTile.jpg",
+      "size": 98088
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/09BR_LTM_HordeRush_Mode_Tile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/09BR_LTM_HordeRush_Mode_Tile.jpg",
+      "size": 104418
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/09BR_Social_LTM_WicksBounty_Announce_PlaylistTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/09BR_Social_LTM_WicksBounty_Announce_PlaylistTile.jpg",
+      "size": 126054
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_BlueWeapons_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_BlueWeapons_ModeTile.jpg",
+      "size": 146127
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_BuildersParadise_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_BuildersParadise_ModeTile.jpg",
+      "size": 128889
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_BuilttoLast_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_BuilttoLast_ModeTile.jpg",
+      "size": 140042
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_DeaglesandHeadshots_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_DeaglesandHeadshots_ModeTile.jpg",
+      "size": 216525
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_FullAuto_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_FullAuto_ModeTile.jpg",
+      "size": 74371
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_GunGame_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_GunGame_ModeTile.jpg",
+      "size": 124128
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_HeavyMetal_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_HeavyMetal_ModeTile.jpg",
+      "size": 82618
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_LavaRumble_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_LavaRumble_ModeTile.jpg",
+      "size": 129954
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_LeaveNoneBehind_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_LeaveNoneBehind_ModeTile.jpg",
+      "size": 231602
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_LoadoutSwap_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_LoadoutSwap_ModeTile.jpg",
+      "size": 107603
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_PurpleReign_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_PurpleReign_ModeTile.jpg",
+      "size": 72938
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_SiphonRumble_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_SiphonRumble_ModeTile.jpg",
+      "size": 69479
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_StrategicStructures_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_StrategicStructures_ModeTile.jpg",
+      "size": 112060
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_Surfin_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_Surfin_ModeTile.jpg",
+      "size": 61204
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_Tag_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_Tag_ModeTile.jpg",
+      "size": 273704
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_TankBattle_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_TankBattle_ModeTile.jpg",
+      "size": 313321
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_WaterBalloons_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/14DaysofSummer/09BR_14DoS_LTM_WaterBalloons_ModeTile.jpg",
+      "size": 71417
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Barebones.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Barebones.jpg",
+      "size": 275328
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_CloseEncounters50s.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_CloseEncounters50s.jpg",
+      "size": 246657
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_FoodFight16.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_FoodFight16.jpg",
+      "size": 400783
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_GroundGame.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_GroundGame.jpg",
+      "size": 327861
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_HighExplosives.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_HighExplosives.jpg",
+      "size": 289837
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_HighExplosives50s.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_HighExplosives50s.jpg",
+      "size": 192574
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_HolidayDisco.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_HolidayDisco.jpg",
+      "size": 2620828
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_OneShot.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_OneShot.jpg",
+      "size": 429759
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Slide.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Slide.jpg",
+      "size": 146738
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_SneakySilencers.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_SneakySilencers.jpg",
+      "size": 395165
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Unvaulted.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_Unvaulted.jpg",
+      "size": 526103
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_WildWest.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM_WildWest.jpg",
+      "size": 374293
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM-Tile_Tactics-Showdown.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR_LTM-Tile_Tactics-Showdown.jpg",
+      "size": 337872
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_5x20.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_5x20.png",
+      "size": 582810
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_Blitz.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_Blitz.png",
+      "size": 844336
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_CloseEncounters.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_CloseEncounters.jpg",
+      "size": 473143
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_SniperShootout.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_SniperShootout.jpg",
+      "size": 278571
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_SolidGold.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR04_LTM_SolidGold.png",
+      "size": 529564
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LobbyTile_LTM_ScoreRoyale.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LobbyTile_LTM_ScoreRoyale.jpg",
+      "size": 442715
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LobbyTile_LTM-Steady-Storm.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LobbyTile_LTM-Steady-Storm.jpg",
+      "size": 680369
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LTM_FlyExplosives.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LTM_FlyExplosives.png",
+      "size": 706392
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LTM_Soaring50s.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR05_LTM_Soaring50s.jpg",
+      "size": 349139
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_Fortnitemares_In-GamePlaylist_Duos.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_Fortnitemares_In-GamePlaylist_Duos.jpg",
+      "size": 240189
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_Fortnitemares_In-GamePlaylist_Solo.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_Fortnitemares_In-GamePlaylist_Solo.jpg",
+      "size": 236096
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_Fortnitemares_In-GamePlaylist_Squads.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_Fortnitemares_In-GamePlaylist_Squads.jpg",
+      "size": 274719
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_In-GamePlaylist_TeamTerror.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_In-GamePlaylist_TeamTerror.jpg",
+      "size": 481922
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_LobbyTile_FoodFight.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_LobbyTile_FoodFight.png",
+      "size": 489196
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_LobbyTile_LTM_DiscoDomination.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_LobbyTile_LTM_DiscoDomination.jpg",
+      "size": 574550
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_ModeTile_LTM_WildWest.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_ModeTile_LTM_WildWest.jpg",
+      "size": 330155
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_ModeTile_TDM.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR06_ModeTile_TDM.jpg",
+      "size": 477366
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/br06-teamrumble.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/br06-teamrumble.jpg",
+      "size": 195477
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_14-DoF_Social.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_14-DoF_Social.jpg",
+      "size": 560784
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_CatchSquads.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_CatchSquads.jpg",
+      "size": 248858
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_Drifting50s_Powder.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_Drifting50s_Powder.jpg",
+      "size": 398266
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_InfinityBlade_v2.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_InfinityBlade_v2.jpg",
+      "size": 129987
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_LoveShot_v2.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_LTM_LoveShot_v2.jpg",
+      "size": 362936
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_NFL_TeamRumble.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_NFL_TeamRumble.jpg",
+      "size": 312367
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_WinterDeimos_Duos.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_WinterDeimos_Duos.jpg",
+      "size": 266521
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_WinterDeimos_Solo.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_WinterDeimos_Solo.jpg",
+      "size": 200506
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_WinterDeimos_Squads.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/BR07_ModeTile_WinterDeimos_Squads.jpg",
+      "size": 325013
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/CM_LobbyTileArt.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/CM_LobbyTileArt.jpg",
+      "size": 527504
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/EN_08BR_DeepFried_Mode_Tile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/EN_08BR_DeepFried_Mode_Tile.jpg",
+      "size": 378140
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/EN_12PR_In-Game_Launch_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/EN_12PR_In-Game_Launch_ModeTile.jpg",
+      "size": 80474
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/EN_CM09_BeachAssaultCreativeLTM_ContestWinner_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/EN_CM09_BeachAssaultCreativeLTM_ContestWinner_ModeTile.jpg",
+      "size": 54868
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09BR_RobotFight_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09BR_RobotFight_ModeTile.jpg",
+      "size": 100867
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09CM_In-Game_PropHunt_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09CM_In-Game_PropHunt_ModeTile.jpg",
+      "size": 47229
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09CM_WorldCup_FeatIsland_JunkyardJuke_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09CM_WorldCup_FeatIsland_JunkyardJuke_ModeTile.jpg",
+      "size": 66472
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09CM_WorldCup_FeatIsland_WorldRun_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/09CM_WorldCup_FeatIsland_WorldRun_ModeTile.jpg",
+      "size": 76335
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_Bounty_LTM_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_Bounty_LTM_ModeTile.jpg",
+      "size": 60249
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_In-Game_Farewell_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_In-Game_Farewell_ModeTile.jpg",
+      "size": 113379
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_TheCombine_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_TheCombine_ModeTile.jpg",
+      "size": 114360
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile_Black.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile_Black.jpg",
+      "size": 18652
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile_Blue.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile_Blue.jpg",
+      "size": 20469
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile_Red.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile_Red.jpg",
+      "size": 20518
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10BR_ZoneWars_In-Game_ModeTile.jpg",
+      "size": 22791
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10CM_LTM_KnockTown_Playlist.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/10CM_LTM_KnockTown_Playlist.jpg",
+      "size": 108366
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/11BR_2v2_GunFright_LTM.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/11BR_2v2_GunFright_LTM.jpg",
+      "size": 136718
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/11BR_LTM_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/11BR_LTM_ModeTile.jpg",
+      "size": 95108
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/FORT_Tile_Tutorial.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlistinformation/v94/FORT_Tile_Tutorial.png",
+      "size": 161749
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/09CM_WorldCup_FeatIsland_SkyStation_ModeTile.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/09CM_WorldCup_FeatIsland_SkyStation_ModeTile.jpg",
+      "size": 167431
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Duo.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Duo.png",
+      "size": 363515
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Solo.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Solo.png",
+      "size": 320246
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Squad.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LobbyTileArt_Squad.png",
+      "size": 434813
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LTM-Tile_Playground.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR_LTM-Tile_Playground.jpg",
+      "size": 280272
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_5x20.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_5x20.png",
+      "size": 582810
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_Blitz.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_Blitz.png",
+      "size": 844336
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_CloseEncounters.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_CloseEncounters.jpg",
+      "size": 473143
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_SniperShootout.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_SniperShootout.jpg",
+      "size": 278571
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_SolidGold.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_SolidGold.png",
+      "size": 529564
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_SoloShowdown.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR04_LTM_SoloShowdown.png",
+      "size": 680623
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LobbyTile_LTM_ScoreRoyale.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LobbyTile_LTM_ScoreRoyale.jpg",
+      "size": 442715
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LobbyTile_LTM-Steady-Storm.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LobbyTile_LTM-Steady-Storm.jpg",
+      "size": 680369
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LTM_FlyExplosives.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LTM_FlyExplosives.png",
+      "size": 706392
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LTM_Soaring50s.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/BR05_LTM_Soaring50s.jpg",
+      "size": 349139
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/LTM_50v50.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/LTM_50v50.png",
+      "size": 596577
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite-game_playlisttiles/LTM_Tile_FinalFight.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite-game_playlisttiles/LTM_Tile_FinalFight.jpg",
+      "size": 72080
+    },
+    {
+      "path": "images/unrealengine-cdn2/fortnite/RUS-Axe.png",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/fortnite/RUS-Axe.png",
+      "size": 837271
+    },
+    {
+      "path": "images/unrealengine-cdn2/solo-1920x1080-1920x1080-bc0a5455ce20.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/solo-1920x1080-1920x1080-bc0a5455ce20.jpg",
+      "size": 234726
+    },
+    {
+      "path": "images/unrealengine-cdn2/squads-1920x1080-1920x1080-095c0732502e.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/squads-1920x1080-1920x1080-095c0732502e.jpg",
+      "size": 416768
+    },
+    {
+      "path": "images/unrealengine-cdn2/stw-1920-1920x1080-5a049ecca449.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/stw-1920-1920x1080-5a049ecca449.jpg",
+      "size": 448387
+    },
+    {
+      "path": "images/unrealengine-cdn2/trios-1920x1080-1920x1080-d5054bb9691a.jpg",
+      "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/assets/images/unrealengine-cdn2/trios-1920x1080-1920x1080-d5054bb9691a.jpg",
+      "size": 363541
+    }
+  ]
+}
