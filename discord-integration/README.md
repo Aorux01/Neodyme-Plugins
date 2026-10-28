@@ -10,7 +10,10 @@ A comprehensive Discord integration plugin for Neodyme that provides webhook not
 - **Discord Bot**: Full-featured bot with slash commands for server management
 - **Role-based Permissions**: Configure which Discord roles can use which commands
 - **Customizable Embeds**: Full control over embed colors and styling
-- 
+- **Staff Alerts**: Optional webhook for new tickets, ban appeals and sensitive staff actions
+- **Linked Accounts**: `/whoami` and `/lookupmember` find the account linked to a Discord user
+- **Audit Trail**: Bans, unbans, V-Bucks gifts and account creations made from Discord appear in the Neodyme audit log
+
 ---
 
 ## Troubleshooting
