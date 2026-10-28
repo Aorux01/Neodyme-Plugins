@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "rewards": [50, 50, 75, 75, 100, 100, 250],
+    "repeatLastReward": false,
+    "graceDays": 0,
+    "utcOffsetHours": 0,
+    "skipBanned": true,
+    "logClaims": true
+}
