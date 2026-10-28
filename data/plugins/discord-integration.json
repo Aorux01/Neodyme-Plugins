@@ -15,7 +15,7 @@
   "versions": {
     "1.0.0": {
       "minBackendVersion": "1.2.0",
-      "releaseDate": "2025-02-11",
+      "releaseDate": "2026-02-11",
       "totalSize": 28412,
       "files": [
         {
@@ -112,7 +112,7 @@
     },
     {
       "version": "1.0.0",
-      "date": "2025-02-11",
+      "date": "2026-02-11",
       "changes": [
         "Initial release"
       ]
