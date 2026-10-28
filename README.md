@@ -10,7 +10,8 @@ Welcome to the Neodyme plugin ecosystem! Plugins allow you to extend your server
 
 | Plugin | Version | Description |
 |--------|---------|-------------|
-| [Discord Integration](./discord-integration/) | 1.0.0 | Discord webhooks and bot for server management |
+| [Discord Integration](./discord-integration/) | 1.0.2 | Discord webhooks and bot for server management |
+| [Daily Bonus](./daily-bonus/) | 1.0.0 | Daily sign-in bonus in V-Bucks with a streak |
 
 ---
 
