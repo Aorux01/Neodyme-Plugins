@@ -7,7 +7,9 @@
   "repository": "https://github.com/Aorux01/Neodyme-Plugins",
   "license": "MIT",
   "dependencies": {
-    "npm": ["discord.js"],
+    "npm": [
+      "discord.js"
+    ],
     "plugins": []
   },
   "versions": {
@@ -16,9 +18,24 @@
       "releaseDate": "2025-02-11",
       "totalSize": 28412,
       "files": [
-        { "path": "discord-integration/index.js",   "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/index.js",   "type": "main",   "size": 24105 },
-        { "path": "discord-integration/config.json","url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/config.json","type": "config", "size": 1487 },
-        { "path": "discord-integration/README.md",  "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/README.md",  "type": "doc",    "size": 2820 }
+        {
+          "path": "discord-integration/index.js",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/index.js",
+          "type": "main",
+          "size": 24105
+        },
+        {
+          "path": "discord-integration/config.json",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/config.json",
+          "type": "config",
+          "size": 1487
+        },
+        {
+          "path": "discord-integration/README.md",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.0/README.md",
+          "type": "doc",
+          "size": 2820
+        }
       ]
     },
     "1.0.1": {
@@ -26,14 +43,80 @@
       "releaseDate": "2026-05-25",
       "totalSize": 31200,
       "files": [
-        { "path": "discord-integration/index.js",   "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/index.js",   "type": "main",   "size": 26800 },
-        { "path": "discord-integration/config.json","url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/config.json","type": "config", "size": 1500 },
-        { "path": "discord-integration/README.md",  "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/README.md",  "type": "doc",    "size": 2900 }
+        {
+          "path": "discord-integration/index.js",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/index.js",
+          "type": "main",
+          "size": 26800
+        },
+        {
+          "path": "discord-integration/config.json",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/config.json",
+          "type": "config",
+          "size": 1500
+        },
+        {
+          "path": "discord-integration/README.md",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.1/README.md",
+          "type": "doc",
+          "size": 2900
+        }
+      ]
+    },
+    "1.0.2": {
+      "minBackendVersion": "1.2.9",
+      "releaseDate": "2026-10-24",
+      "totalSize": 60821,
+      "files": [
+        {
+          "path": "discord-integration/index.js",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.2/index.js",
+          "type": "main",
+          "size": 48463
+        },
+        {
+          "path": "discord-integration/config.json",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.2/config.json",
+          "type": "config",
+          "size": 3015
+        },
+        {
+          "path": "discord-integration/README.md",
+          "url": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/discord-integration/1.0.2/README.md",
+          "type": "doc",
+          "size": 9343
+        }
       ]
     }
   },
   "changelog": [
-    { "version": "1.0.1", "date": "2026-05-25", "changes": ["Shop rotation now sends the rendered shop image (SVG)", "Falls back to text summary if image generator unavailable"] },
-    { "version": "1.0.0", "date": "2025-02-11", "changes": ["Initial release"] }
+    {
+      "version": "1.0.2",
+      "date": "2026-10-24",
+      "changes": [
+        "Bot actions are recorded in the Neodyme audit log",
+        "New /whoami and /lookupmember using the Discord account linked on the website",
+        "Optional staff alerts webhook (tickets, ban appeals, sensitive staff actions)",
+        "/serverstatus reports real health checks",
+        "Account creation applies the website rules, V-Bucks gifts are limited",
+        "Older config.json files keep working and hooks are removed on reload"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-05-25",
+      "changes": [
+        "Shop rotation now sends the rendered shop image (SVG)",
+        "Falls back to text summary if image generator unavailable"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2025-02-11",
+      "changes": [
+        "Initial release"
+      ]
+    }
   ]
 }
+
