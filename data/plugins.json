@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "lastUpdated": "2026-05-25T15:00:00Z",
+  "lastUpdated": "2026-10-24T12:00:00Z",
   "plugins": [
     {
       "id": "discord-integration",
@@ -8,12 +8,31 @@
       "name": "Discord Integration",
       "description": "Enhanced Discord integration features",
       "author": "Aorux - Neodyme Team",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "integration",
-      "tags": ["discord", "social"],
+      "tags": [
+        "discord",
+        "social"
+      ],
       "downloads": 0,
       "rating": 4.5,
       "manifestUrl": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/plugins/discord-integration.json"
+    },
+    {
+      "id": "daily-bonus",
+      "guid": "5b0e1c7a3f2d4e8a9c6b1d0f7e3a2c45",
+      "name": "Daily Bonus",
+      "description": "Daily sign-in bonus in V-Bucks with a streak",
+      "author": "Aorux - Neodyme Team",
+      "version": "1.0.0",
+      "category": "economy",
+      "tags": [
+        "vbucks",
+        "rewards"
+      ],
+      "downloads": 0,
+      "rating": 0,
+      "manifestUrl": "https://raw.githubusercontent.com/Aorux01/Neodyme-Plugins/refs/heads/main/data/plugins/daily-bonus.json"
     }
   ]
 }
